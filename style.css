@@ -9,17 +9,17 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:20px;
   
 }
 .logo{
-    margin-right:10px;
     width: 70px;
+    margin:0px;
 }
 .header h1{
     margin:0px;
-    color:black;
+    color:rgb(251, 246, 246);
     font-size: 50px;
-  
 }
 nav ul {
     list-style: none;
@@ -54,6 +54,19 @@ nav ul {
     font-size: 70px;
     font-family: sans-serif;
  }
+ .oasis{
+    color: #af4c98;
+    text-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 7px #fff, 0 0 9px #ff00e6, 0 0 10px #ff00e6, 0 0 12px #ff00e6, 0 0 20px #ff00e6, 0 0 30px #ff00e6; 
+    animation: glow-animation 1s infinite alternate;
+ }
+ @keyframes glow-animation {
+    from {
+      text-shadow: 0 0 1px #aca4a4, 0 0 5px #fff, 0 0 7px #fff, 0 0 9px #ff00e6, 0 0 10px #ff00e6, 0 0 12px #ff00e6, 0 0 20px #ff00e6, 0 0 30px #ff00e6; /* Start glowing */
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 11px #fff, 0 0 12px #ff00e6, 0 0 15px #ff00e6, 0 0 17px #ff00e6, 0 0 230px #ff00e6, 0 0 40px #ff00e6; /* End glowing */
+    }
+  }
 .images{
     justify-content: space-around;
     padding-left: 110px;
