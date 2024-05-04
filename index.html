@@ -7,9 +7,12 @@
     <title>nida&fatima</title>
 </head>
 <body>
-    <h1>library</h1>
-    <header id="home">
-        <nav>
+
+    <header  class="header">
+        <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAq9JREFUSEvdl1tPE1EQx+e/W6FQe2HpJoCSSAyJiTEFxGhMJAG8NGp85BPwoN/AqI/6oJ9A44PvPGliTKMCUV+MYKUaExM0kHiBZKFsWy6l7TljtlCyaVoKZRH1vO3snPnN7MyZMwvao4U94lJZ8FLUaMkQtYPgqsY5Js7liCb1Lv1Xqf0lwckP86eJcKkaYPEehnzi7wi+K5aXAcdvEJHHCTARJXyd2r2tgu9YipLlSKArOFyNA2Z0rl+B0mft9XVqN/9NsBE1WmpV9bAqxDfPetFYRSgsWVZ89XTrM4XIHIs4EUuchBRXCoYBjkmGC0RHCzIm9bG/0z9mPTsGTk7ErxOTt0K+Nwrpz4JBSV+HdtfRiBcnEhcki57NIpbgV4GOxueOgnmUXQn/wqACai0Fl8TTflN7hF7kHAVbxvgz1yxmFgaZ6IAdDqKf+0XDQ3Qj63hVFwxOjU65tYDvKgh63hliI24m77f1tqXtzjhWXHajs7FZT73cd42Y5LKafdAUaloq/vy7As7n8KPZkK3J5vQjeqpUzncNXKl//1/gVHRGZ9V90YoaIv3M29Vs7GqO+TvXpYy5c0zKCQBKvqqZJUiOefXgC7RixdHjNDQ0pIbbz55i5j4A7nykjNU8GFy77kAawEhk8uXbgYEBsaMcQ1GGSYhZVihMjMa1c0sM4L0XgXxrTLF5npmPg9bnN/A8JEVIVZtYyv6qBgFmXgWQj2ht8bQq5FP7vWtJl8aNZqEql4lwaEPTtnfbE4itYMycoIjWrX3a7BjFx+PHXCqFiShg19s2GIRMDrnXgYXgm0Lzr3R+rcvEbJg742JXDxPXbOtTp2LmbZIilq6TkXKdqZIDxhfD615RwqSoIW8ocKtYv+R4uxybP1gfavxRyfhW3pez9ff9wmwlmp3o/AbT5tcuNGvGnwAAAABJRU5ErkJggg=="/>
+
+        <nav >
+          
             <ul>
                 <li> <a href="#home" class="active">Home</a></li>
                 <li> <a href="#sec1 ">Books</a></li>
@@ -20,7 +23,15 @@
         </nav>
         
     </header>
+    <h1 class="wel">Welcome</h1>
     <main>
+        <section id="home">
+            <div class="videoformat">
+                <img src="./slideS6.jpg" alt="img1">
+                <img src="./slideS2.jpeg" alt="img2">
+                <img src="./slides1.avif" alt="img3"> 
+            </div>
+        </section>
         <section id="sec1">
             <div class="images">
                 <img src="./catcher.png" alt="img" width="240px">
@@ -35,11 +46,22 @@
             </div>
         <hr>
         </section>
-        <section id="sec2"><p>order ba dalta kae</p>
-            <br>
-            <br>
-            <br>
+        <section id="sec2" class="ordering">
+            <form  class="textbox"></form>
+            <div class="first">
+                <label>Name</label>
+                <input type="text" name="cname" value="abc">
 
+                <label>Email</label>
+                <input type="text" name="cname" value="abc">
+          <br>
+                <label>Name</label>
+                <input type="text" name="cname" value="abc">
+
+                <label>Email</label>
+                <input type="text" name="cname" value="abc">
+            </div>
+          </form>
         </section>
         <section class="contact" id="sec3">
             <div class="middle">
@@ -63,7 +85,6 @@
                             <input type="Number" placeholder="Mobile Number" required>
                             <span class="focus"></span>
                         </div>
-
                         <div class="input-field">
                             <input type="text" placeholder="Email Subject" required>
                             <span class="focus"></span>
