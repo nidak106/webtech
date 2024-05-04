@@ -67,6 +67,21 @@ nav ul {
       text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 11px #fff, 0 0 12px #ff00e6, 0 0 15px #ff00e6, 0 0 17px #ff00e6, 0 0 230px #ff00e6, 0 0 40px #ff00e6; /* End glowing */
     }
   }
+  .firstimg{
+    margin-left: 100px;
+    justify-content: space-between;
+    word-spacing: 100px;
+  }
+  .secimg{
+    margin-left: 100px;
+    justify-content: space-between;
+    word-spacing: 100px;
+  }
+  .thirdimg{
+    margin-left: 100px;
+    justify-content: space-between;
+    word-spacing: 100px;
+  }
 .images{
     justify-content: space-around;
     padding-left: 110px;
