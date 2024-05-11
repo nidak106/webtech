@@ -7,7 +7,7 @@
     <title>nida&fatima</title>
 </head>
 <body>
-
+<header>
     <header  class="header">
         <img title="oasis" class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAq9JREFUSEvdl1tPE1EQx+e/W6FQe2HpJoCSSAyJiTEFxGhMJAG8NGp85BPwoN/AqI/6oJ9A44PvPGliTKMCUV+MYKUaExM0kHiBZKFsWy6l7TljtlCyaVoKZRH1vO3snPnN7MyZMwvao4U94lJZ8FLUaMkQtYPgqsY5Js7liCb1Lv1Xqf0lwckP86eJcKkaYPEehnzi7wi+K5aXAcdvEJHHCTARJXyd2r2tgu9YipLlSKArOFyNA2Z0rl+B0mft9XVqN/9NsBE1WmpV9bAqxDfPetFYRSgsWVZ89XTrM4XIHIs4EUuchBRXCoYBjkmGC0RHCzIm9bG/0z9mPTsGTk7ErxOTt0K+Nwrpz4JBSV+HdtfRiBcnEhcki57NIpbgV4GOxueOgnmUXQn/wqACai0Fl8TTflN7hF7kHAVbxvgz1yxmFgaZ6IAdDqKf+0XDQ3Qj63hVFwxOjU65tYDvKgh63hliI24m77f1tqXtzjhWXHajs7FZT73cd42Y5LKafdAUaloq/vy7As7n8KPZkK3J5vQjeqpUzncNXKl//1/gVHRGZ9V90YoaIv3M29Vs7GqO+TvXpYy5c0zKCQBKvqqZJUiOefXgC7RixdHjNDQ0pIbbz55i5j4A7nykjNU8GFy77kAawEhk8uXbgYEBsaMcQ1GGSYhZVihMjMa1c0sM4L0XgXxrTLF5npmPg9bnN/A8JEVIVZtYyv6qBgFmXgWQj2ht8bQq5FP7vWtJl8aNZqEql4lwaEPTtnfbE4itYMycoIjWrX3a7BjFx+PHXCqFiShg19s2GIRMDrnXgYXgm0Lzr3R+rcvEbJg742JXDxPXbOtTp2LmbZIilq6TkXKdqZIDxhfD615RwqSoIW8ocKtYv+R4uxybP1gfavxRyfhW3pez9ff9wmwlmp3o/AbT5tcuNGvGnwAAAABJRU5ErkJggg=="/>
 
@@ -23,6 +23,7 @@
         </nav>
         
     </header>
+    </header>
     <h1 class="wel">Welcome to <span class="oasis">oasis</span></h1>
     <main>
         <section id="home">
@@ -32,54 +33,72 @@
                 <img src="./slides1.avif" alt="img3"> 
             </div>
         </section>
-        <section id="sec1">
-        <div class="images">
-            <hr>
-            <br>
-            <br>
+        <section class="events" id="sec1">
+        <div class="row">
+            <div class="col">
+                <img src="./catcher.png" alt="catcher" width="450px">
+                <pre><h4>The Catcher
+price:Rs500
 
-            <div class="firstimg">
-                <img src="./catcher.png" alt="img" width="280px" height="300px">
-                <img src="./davinci code.png" alt="img" width="193px" height="300px">
-                <img src="./hobbit.png" alt="img" width="250px"  height="300px">
-
+<button class="imgbut">Buy now</button>
+                </h4></pre>
+               
             </div>
+        
+           
+       
+            <div class="col">
+                <img src="./davinci code.png" alt="catcher" width="300px">
+                <pre><h4>The Catcher
+price:Rs500
 
-                <br >
-                <br>
-            <div class="secimg">
-                <img src="./ord of the ring.png" alt="img" width="250px" height="300px">
-                <img src="./the alchemist.png" alt="alchemist" width="230px" height="300px">
-                <img src="./the road.png" alt="img" width="230px" height="300px">
+<button class="imgbut">Buy now</button>
+                </h4></pre>
+                
             </div>
+            <div class="col">
+                <img src="./crime and punishment.png" alt="catcher" width="300px">
+                <pre><h4>The Catcher
+price:Rs500
 
-                <br>
-                <br>
-
-             <div class="thirdimg">   <img src="./crime and punishment.png" alt="img" width="220px" height="300px">
-                <img src="./les miserable.png" alt="img" width="230px" height="300px">
-                <img src="./frakenstine.png" alt="img" width="230px" height="300px">
-                <br>
-            </div>  
+<button class="imgbut">Buy now</button>
+                                    </h4></pre>
+               
+            </div>
         </div>
         <hr>
         </section>
+
+
         <section id="sec2" class="ordering">
+            <h1 class="order" style="color: aliceblue;">
+            Order
+            </h1>
             <form  class="textbox"></form>
             <div class="first">
                 <label>Name</label>
-                <input type="text" name="cname" value="abc">
+                <input  class="input" type="text" name="cname" placeholder="nida">
 
                 <label>Email</label>
-                <input type="text" name="cname" value="abc">
+                <input  class="input" type="text" name="cname" placeholder="example@gmail.com">
           <br>
-                <label>Name</label>
-                <input type="text" name="cname" value="abc">
+          <br>
+                <label>Address</label>
+                <input class="input" type="text" name="cname" placeholder="street,houseno">
 
-                <label>Email</label>
-                <input type="text" name="cname" value="abc">
+                <label>City</label>
+                <input  class="input" type="text" name="cname" placeholder="peshawar">
+                <br>
+                <br>
+                <label>Credit-Card-Number:</label>
+                <input class="input" type="Number" name="cname" placeholder="1111-2222-333-4444">
+<br>
+<br>
+                <label>State</label>
+                <input  class="input" type="text" name="cname" placeholder="Pakistan">
             </div>
           </form>
+          <hr>
         </section>
         <section class="contact" id="sec3">
             <div class="middle">
