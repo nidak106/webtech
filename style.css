@@ -1,16 +1,16 @@
 *{
-    background-color: rgb(24, 7, 19);
+    background-color: rgb(249, 242, 247);
 }
 
 p{
-    color: aliceblue;
+    color: rgb(4, 5, 5);
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:20px;
-    box-shadow: 0 0 10px honeydew;
+    box-shadow: 0 0 10px rgb(13, 14, 13);
   
 }
 .logo{
@@ -19,7 +19,7 @@ p{
 }
 .header h1{
     margin:0px;
-    color:rgb(251, 246, 246);
+    color:rgb(9, 9, 9);
     font-size: 50px;
 }
 nav ul {
@@ -40,7 +40,7 @@ nav ul {
   }
   
   nav ul li a {
-    color: white;
+    color: rgb(11, 11, 11);
     text-decoration: none;
    
   }
@@ -48,7 +48,7 @@ nav ul {
   color: #ec59db;
  }
  .wel{
-    color: aliceblue;
+    color: rgb(14, 14, 15);
     text-align: center;
     font-size: 70px;
     font-family: sans-serif;
@@ -154,17 +154,6 @@ nav ul {
     .heading:hover{
         color: #af4c98;
     }
-    .friends{
-        /* display: flex;
-        justify-content: center;
-align-items: center;
-        width:300px;
-        height: 200px;
-        margin-left: 350px;
-        border:2px solid #af4c98;
-        padding:150px;
-        background-color: aliceblue; */
-    }
     .heading2{
         display: flex;
         margin: 0 10px;
@@ -175,10 +164,10 @@ align-items: center;
     
     .videoformat{
         width: 1200px;
-        height:500px;
+        height:550px;
         position: relative;
         overflow: hidden;
-        margin-left: 60px;
+        margin-left: 155px;
     }
     .videoformat img{
         position: absolute;
@@ -202,26 +191,42 @@ align-items: center;
       .videoformat img:nth-child(3){
         animation-delay: 5s;
       }
-     
+     .ordering{
+      border: 2px solid black;
+      padding: 10px;
+        background:transparent;
+      width: 60%;
+ margin: auto;
+ box-shadow: 0 0 10px black;
+     }
+     .textbox{
+      background:
+     }
       .input{
-        font-size: 15px;
-        color: #af4c98;
+        font-size: 20px;
+        background:transparent;
+        margin-bottom: 25px;
       }
       .order{
         font-size: 50px;
         text-align: center;
+        width: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
       }
       .order:hover{
         color: #af4c98;
+        background-color: #DDA0DD;
       }
       .first{
         font-size: 30px;
-            color:#eee8e8;
+            color:#060303;
             border-radius: 40px;
             padding: 60px;
             width: 700px;
+            background-image: url('./back.jpg');
             margin: 0 auto;
+            margin-bottom: 70px;
       }
       .row{
         display: flex;
@@ -239,7 +244,7 @@ align-items: center;
         margin-left: 50px;
       }
       .row h4{
-        color: #eee8e8;
+        color: #0f0e0e;
         font-size: 3vmin;
         margin:20px auto;
       }
