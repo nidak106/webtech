@@ -274,6 +274,14 @@ nav ul {
         flex-wrap: wrap;
         gap:20px;
       }
+.fot-img img{
+  transition: transform 0.3s ease,filter 0.3s ease;
+}
+.fot-img:hover img{
+  color: #af4c98;
+  transform:scale(1.1);
+  filter:brightness(80%);
+}
 
       .card {
         width: 300px;
@@ -287,8 +295,8 @@ nav ul {
     }
     
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(225, 53, 122, 0.2);
+  transform: translateY(-15px);
+  box-shadow: 0 8px 16px rgba(9, 9, 9, 0.2);
 }
 .card-image{
   width: 97%;
@@ -299,6 +307,18 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   gap:70px;
+}
+
+.penguin{
+  overflow: hidden;
+}
+.penguin img{
+transition: transform 0.3s ease,filter 0.3s ease;
+}
+.penguin:hover img{
+  background-color: #af4c98;
+  transform:scale(1.1);
+  filter:brightness(80%);
 }
     
 
